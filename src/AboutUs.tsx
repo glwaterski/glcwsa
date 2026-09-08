@@ -55,19 +55,20 @@ export default function AboutUs() {
         <p className="text-gray-500 mb-6">Below is your Great Lakes Region Executive Board consisting of current and alumni team athletes!</p>
         <div className="flex flex-wrap justify-center gap-8">
           {BOARD.map((member, i) => (
-            <div key={i} className="bg-gray-50 rounded shadow p-6 flex flex-col items-center w-72">
+            <div key={i} className="bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col items-center w-72">
               {member.photo ? (
                 <img
                   src={`${import.meta.env.BASE_URL}${member.photo}`}
                   alt={member.name}
-                  className="w-24 h-24 rounded-full mb-4 object-cover border-2 border-gray-300 shadow"
+                  className="w-28 h-28 rounded-full mb-4 object-cover border-2 border-gray-200 shadow-sm"
                 />
               ) : (
-                <div className="w-24 h-24 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-gray-400">Photo</div>
+                <div className="w-28 h-28 bg-gray-100 rounded-full mb-4 flex items-center justify-center text-gray-400">Photo</div>
               )}
-              <h2 className="text-xl font-semibold">{member.name}</h2>
-              <div className="text-sm text-gray-600 mb-2">Board Position: {member.position}</div>
-              <div className="text-sm text-gray-600 mb-2">School: {member.school}</div>
+              <h2 className="text-xl font-bold text-gray-900">{member.name}</h2>
+              <div className="text-brand font-semibold mt-1">{member.position}</div>
+              <div className="w-10 border-t border-gray-200 my-3"></div>
+              <div className="text-base text-gray-700">{member.school}</div>
             </div>
           ))}
         </div>

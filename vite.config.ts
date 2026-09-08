@@ -4,9 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // Serving from https://artjac19.github.io/glcwsa for now.
-  // When glcwsa.org is live: change base to '/' and add a CNAME file (see README).
-  base: '/glcwsa/',
+  // Served from the custom domain glwaterski.org (CNAME is added by the deploy script).
+  base: '/',
   plugins: [
     react(),
     tailwindcss(),
