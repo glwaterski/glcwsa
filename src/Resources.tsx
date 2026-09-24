@@ -149,20 +149,11 @@ export default function Resources() {
                 <td className="px-3 py-2">Bell Aqua - Sacramento, CA</td>
               </tr>
               <tr className="even:bg-gray-100">
-                <td className="px-3 py-2">2006</td>
+                <td className="px-3 py-2">2026</td>
                 <td className="px-3 py-2">Trick</td>
-                <td className="px-3 py-2">Sergio Uribe</td>
-                <td className="px-3 py-2">Purdue</td>
-                <td className="px-3 py-2">4,310 points</td>
-                <td className="px-3 py-2">Purdue Fall Classic</td>
-                <td className="px-3 py-2">Hawthorn Lake - Danville, IN</td>
-              </tr>
-              <tr className="even:bg-gray-100">
-                <td className="px-3 py-2">2023</td>
-                <td className="px-3 py-2">Trick</td>
-                <td className="px-3 py-2">Aidan Hughes</td>
-                <td className="px-3 py-2">Michigan State</td>
-                <td className="px-3 py-2">4,310 points</td>
+                <td className="px-3 py-2">Reid Meinhardt</td>
+                <td className="px-3 py-2">University of Michigan</td>
+                <td className="px-3 py-2">5,170 points</td>
                 <td className="px-3 py-2">Spartan Ripfest</td>
                 <td className="px-3 py-2">South Haven, MI</td>
               </tr>
@@ -227,7 +218,7 @@ export default function Resources() {
                 <td className="px-3 py-2">Jump</td>
                 <td className="px-3 py-2">Riley Daulton</td>
                 <td className="px-3 py-2">Ohio State</td>
-                <td className="px-3 py-2">127 feet</td>
+                <td className="px-3 py-2">134 feet</td>
                 <td className="px-3 py-2">NCWSA All Stars</td>
                 <td className="px-3 py-2">Borderline Lake - Blaine, WA</td>
               </tr>

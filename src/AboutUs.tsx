@@ -22,7 +22,7 @@ const COMMITTEE: { name: string; position: string; school?: string }[] = [
 // Placeholder NCWSA committee — replace these entries with the real NCWSA committee as info comes in.
 const NCWSA_COMMITTEE: { name: string; position: string; school?: string }[] = [
   { name: "Isabel Kinsinger", position: "Marketing", school: "University of Cincinnati" },
-  { name: "Colin Pots", position: "NCWSA Awards Rep.", school: "Ohio State University" },
+  { name: "Collin Potts", position: "NCWSA Awards Rep.", school: "Ohio State University" },
   { name: "Aden Dzierzawski", position: "International Relations", school: "Ohio University" },
   { name: "Lydia Habel", position: "Membership", school: "University of Cincinnati" },
   { name: "Ellie Williams", position: "Operations", school: "University of Michigan (Alum)" },
